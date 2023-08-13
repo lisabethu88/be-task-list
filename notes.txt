@@ -1,12 +1,16 @@
-class Board(db.Model):
-    __tablename__ = "card"
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    message = db.Column(db.String)
-    likes_count = db.Column(db.Integer)
 
 
-    class Board(db.Model):
-    __tablename__ = "card"
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    message = db.Column(db.String)
-    likes_count = db.Column(db.Integer)
+    # Create Board
+# -- Create a new board, by filling out a form. The form includes "title" and "owner" name of the board.
+# -- See an error message if I try to make a new board with an empty/blank/invalid/missing "title" or "owner" input.
+# -- All error messages can look like a new section on the screen, a red outline around the input field, and/or disabling the input, as long as it's visible
+# -- Hide the "New Board" form, so I don't have to see the "New Board" form all the time when I'm looking at cards.
+
+# Read Boards
+# -- View a list of all boards.
+# -- Select a board.
+
+
+# Update Card with Likes Count 
+# -- Press a "+1" icon on a single card, to indicate that I agree with it.
+# -- See the number of "+1"s on a single card. Every card starts with zero "+1"s.
